@@ -9,6 +9,10 @@ namespace GitHubDownloadTest
 {
     class Program
     {
+        /// <summary>
+        /// test console app
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             using (var client = new WebClient())
